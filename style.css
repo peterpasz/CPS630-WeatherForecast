@@ -1,0 +1,184 @@
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+}
+
+body{
+	background-color: #00001A;
+	color:white; 
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	background: url(img/sky.jpg) no-repeat center center fixed ;	
+	background-size: cover;
+}
+
+.weatherTitle{
+	background-color: #4ABDAC;
+	width: 40%;
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+	color: white;
+	text-align: center;
+	border-radius: 50px 50px 0 0;
+	box-shadow: 10px 10px #478888;
+	border-color: #478888;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+}
+
+.unitDisplay{
+	background-color: #4ABDAC;
+	width: 40%;
+	margin: 0 auto;
+	padding: 20px 0 20px 0;
+	color: white;
+	text-align: center;
+	border-radius: 50px 50px 0 0;
+	box-shadow: 10px 10px #478888;
+	border-color: #478888;
+	border-style: solid;
+	border-width: 10px 10px 0 10px;
+}
+
+.panelTitle{
+	text-shadow: 1px 1px #FC4A1A;
+}
+
+h2{
+	background-color: #4ABDAC;
+	width: 40%;
+	margin: 0 auto;
+	padding: 10px 0 10px 0;
+	color: white;
+	text-align: center;
+	border-radius: 0 0 50px 50px;
+	box-shadow: 10px 10px #478888;
+	border-color: #478888;
+	border-style: solid;
+	border-width: 0px 10px 10px 10px;
+}
+
+.search {
+                padding:8px 15px;
+                background: white;
+                border:10px solid #478888;
+				border-radius: 10px;
+}
+
+.searchButton {
+                padding:6px 15px;
+                left:-8px;
+                border:2px solid #207cca;
+                background-color:#4ABDAC;
+                color:#fafafa;
+				border:10px solid #478888;
+				border-radius: 10px;
+}
+
+.selectedButton{
+	padding:6px 15px;
+	left:-8px;
+	border:2px solid #207cca;
+	background-color:#fafafa;
+    color:#207cca;
+	border:10px solid #478888;
+	border-radius: 10px;
+}
+
+.searchButton:hover  {
+                background-color:#fafafa;
+                color:#207cca;
+				border-radius:10px;
+}
+
+.selectedSnapshot{
+	background-color: #4717F6;
+	font-size: 50px;
+	width: 80%;
+	margin: 100px;
+	padding: 100px;
+	border-radius: 40px;
+}
+
+.inline{
+	display: inline-block;
+}
+
+.bigNumber{
+	font-size: 120px;
+}
+
+.fiveDayTop{
+	background-color: #4ABDAC;
+	width: 40%;
+	margin: 0 auto;
+	padding: 50px;
+	color: white;
+	border-radius: 50px;
+	box-shadow: 10px 10px #478888;
+	text-align: center;
+	border-color: #478888;
+	border-style: solid;
+	border-width: 10px;
+}
+
+.fiveDayBot{
+	background-color: #4ABDAC;
+	margin: 20px 20px 20px 20px;
+	padding: 15px;
+	display: inline-block;
+	border-radius: 20px;
+	color: white;
+	box-shadow: 10px 10px #478888;
+	border-color: #478888;
+	border-style: solid;
+	border-width: 5px;
+}
+
+.weatherIcon{
+	width:150px;
+	height:150px;
+}
+
+.openWeatherIcon{
+	content:url("http://openweathermap.org/img/w/10d.png");
+}
+
+.searchBar {
+	text-align: center;
+	width: 90%;
+	margin: 50px;
+}
+
+@media only screen and (min-width: 1440px){
+	/* large monitor */
+	.c1{
+		width: 19%;
+	}
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px){
+	/* laptop */
+	.c1{
+		width: 15%;
+	}
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    /* tablets and desktop */
+	.c1{
+		width: 40%;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+    /* phones */
+	.c1{
+		width: 85%;
+	}	
+}
+
+
+
+

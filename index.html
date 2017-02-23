@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<title>WEATHER</title>
+
+
+		<!-- Loading main css file -->
+		<link rel="stylesheet" href="style.css">
+		<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+		
+		<script src="script.js"></script>
+
+
+
+	</head>
+	
+    <body onload="weatherRequest()">
+
+	<center>
+	<h1 class="weatherTitle">
+	WEATHER!
+	</h1>
+	<h2 id="ofCity"></h2>
+
+	
+	<section class="searchBar">
+		<input class="search" type="search" id="citySearch" placeholder="Enter City Name"/>
+		<button class="searchButton" onclick="searchWeather()">Weather!</button>
+		<button class="searchButton selectedButton" id="cButton" onclick="setCelsius()">Celsius</button>
+		<button class="searchButton" id="fButton" onclick="setFarhenheit()">Fahrenheit</button>
+	</section>
+	</center>
+
+	<section class="unitDisplay">
+	Current Temperature Scale <div id="unitDisplay">CELSIUS</div>
+	</section>
+
+
+	<section>
+		
+			
+	<div class="fiveDayTop">
+		<h3>TODAY</h3>	
+		<h1 class="panelTitle"><div id="snapshot1time"></div></h1>
+		<div id="tempNum1" class="bigNumber inline"></div>
+		<img class="weatherIcon inline" id ="condition1" src="">
+		<div id="snapshot1"></div>
+		<div id="tempDay1"></div>
+	</div>	
+			
+	
+	<div class="fiveDayBot c1">
+		<div id="snapshot2time"></div>
+		<div id="tempNum2" class="bigNumber inline"></div>
+		<img class="weatherIcon inline" id ="condition2" src="">
+		<div id="snapshot2"></div>
+		<div id="tempDay2"></div>
+		
+	</div>	
+	<div class="fiveDayBot c1">
+		<div id="snapshot3time"></div>
+		<div id="tempNum3" class="bigNumber inline"></div>
+		<img class="weatherIcon inline" id ="condition3" src="">
+		<div id="snapshot3"></div>
+		<div id="tempDay3"></div>
+	</div>	
+	
+	<div class="fiveDayBot c1">
+		<div id="snapshot4time"></div>
+		<div id="tempNum4" class="bigNumber inline"></div>
+		<img class="weatherIcon inline" id ="condition4" src="">
+		<div id="snapshot4"></div>
+		<div id="tempDay4"></div>
+	</div>	
+	
+	<div class="fiveDayBot c1">
+		<div id="snapshot5time"></div>
+		<div id="tempNum5" class="bigNumber inline"></div>
+		<img class="weatherIcon inline" id ="condition5" src="">
+		<div id="snapshot5"></div>
+		<div id="tempDay5"></div>
+	</div>
+	
+	</section>
+	
+	</body>
+
+</html>
