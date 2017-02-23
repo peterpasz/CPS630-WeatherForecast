@@ -6,7 +6,7 @@ Second lab assignment for Web Applications course [CPS 630]
 
 - Use AJAX 
 - Use either JSON or XML 
-- Gather current data using `openweathermap.org`
+- Gather current data using [openweathermap.org](http://www.openweathermap.org)
 - Display information using aesthetically pleasing graphics and text
 - User must be able to switch between **FARHENHEIT** and **CELSIUS**
 - Weather Information
